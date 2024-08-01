@@ -1,0 +1,59 @@
+IMPORTANT SPRING BOOT STARTER DEPENDENCIES
+
+1] WEB:
+       Description: The Spring Boot Starter Web dependency is used to build web applications, including RESTful applications using Spring MVC.
+       Features:
+              - Embedded Tomcat server.[Apache Tomcat is an open-source web server and servlet container developed by the Apache Software Foundation. It implements the Java Servlet, JavaServer Pages (JSP), and WebSocket specifications.]
+              - RESTful API support.[REST (Representational State Transfer) is an architectural style for designing networked applications. 
+                                    A RESTful API (Application Programming Interface) follows REST principles and allows interaction with web services using HTTP methods.
+                                    Uses standard HTTP methods: GET, POST, PUT, DELETE, etc.Stateless communication. Resource-based URIs. Data format is typically JSON or XML.]
+              - Data returned in JSON[JavaScript Object Notation] format by default.
+              - Includes features for building web applications like Spring MVC [MVC is a design pattern used for developing web applications. 
+                                     It separates an application into three interconnected components: Model, View, and Controller.
+                                     Model: Represents the application's data and business logic. View: Represents the presentation layer (UI). 
+                                     Controller: Handles user input and interacts with the Model and View.], and more.
+2] SECURITY:
+            Description: The Spring Boot Starter Security dependency provides security services for applications.
+            Features:
+                   - Authentication and authorization.
+                   - Supports form-based authentication, OAuth2[Open Authorization 2.0], and JWT[JSON Web Token].
+                   - Protection against common vulnerabilities such as CSRF (Cross-Site Request Forgery).
+                   - Easily configurable security settings.
+3] DATA-JPA:
+            Description: The Spring Boot Starter Data JPA dependency is used to work with relational databases using JPA (Java Persistence API).
+            Features:
+                   - Simplifies database access.
+                   - Uses Hibernate[It simplifies database interactions by mapping Java objects to database tables.] as the default JPA implementation.
+                   - Supports creating, updating, and querying data with repositories.
+                   - Entity mapping and transactions are managed automatically.
+4] TESTING:
+          Description: The Spring Boot Starter Test dependency includes testing libraries for writing and running tests.
+          Features:
+                 - Includes JUnit[JUnit is a popular testing framework for Java applications. It provides annotations and assertions to write and run test cases.],
+                                        Mockito[ Mockito is a mocking framework for unit tests in Java. It allows the creation of mock objects and the definition of their behavior.],
+                                        and Spring Test.
+                 - Supports unit and integration testing.
+                 - Provides tools for testing Spring Boot applications.
+                 - Test classes are typically placed in src/test/java.
+5] Thymeleaf:
+            Description: Thymeleaf is a Java-based template engine for web and standalone environments.
+            Features:
+                   - Natural templating: HTML templates that can be opened and correctly displayed in browsers and IDEs.
+                   - Supports dynamic rendering of HTML content.
+                   - Integration with Spring MVC.
+                   - Supports internationalization, validation, and more.
+6] AMQP:
+        Description: The Spring Boot Starter AMQP dependency is used for messaging with AMQP (Advanced Message Queuing Protocol) such as RabbitMQ.
+        Features:
+               - Provides tools and auto-configurations for messaging.
+               - Supports publishing and consuming messages.
+               - Facilitates asynchronous communication.
+               - Includes listener containers and template support.
+7] ACTUATOR:
+            Description: The Spring Boot Starter Actuator provides production-ready features to help you monitor and manage your application.
+            Features:
+                   - Health checks.
+                   - Metrics and monitoring.
+                   - Application information and environment properties.
+                   - Secure access to management endpoints.
+                   - These dependencies are critical in developing, securing, testing, and managing Spring Boot applications. Each dependency simplifies specific tasks and provides essential tools and configurations out-of-the-box.
